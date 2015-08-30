@@ -35,6 +35,7 @@ class AnsiGenerator(object):
   """
   ESCAPE = chr(033)
   ATTRS = {
+      # Codes come from Perl's Term::ANSIColor module
      'clear':        0,
      'reset':        0,
      'bold':         1,
