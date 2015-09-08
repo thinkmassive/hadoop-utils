@@ -25,6 +25,9 @@ class HadoopProperty(object):
 a = {}
 b = {}
 
+print sys.argv[1]
+print sys.argv[2]
+
 tree = ET.parse(sys.argv[1])
 root = tree.getroot()
 for child in root:
